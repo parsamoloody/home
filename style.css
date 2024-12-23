@@ -1,0 +1,82 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background: #0d111d;
+    color: #090c15;
+    padding: 20px;
+    /* text-align: center; */
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #00071a;
+    border-radius: 18px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 25px;
+}
+
+.profile {
+    margin-bottom: 40px;
+}
+
+.profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #4fa153;
+}
+
+h1 {
+    margin-top: 20px;
+    font-size: 2.5rem;
+    color: #ffffff;
+}
+
+.job-title {
+    font-size: 1.2rem;
+    color: #888;
+    margin-top: 10px;
+}
+
+.bio {
+    margin-bottom: 40px;
+}
+
+h2 {
+    font-size: 1.8rem;
+    color: #888;
+    margin-bottom: 15px;
+}
+
+p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 15px;
+    color: #4fa153;
+}
+
+.born {
+    font-size: 1.2rem;
+    color: #888;
+}
+a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.post p {
+    margin-bottom: 15px;
+    font-family: robot;
+}
